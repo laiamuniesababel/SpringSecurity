@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo para Spring Security</title>
+    </head>
+    <body>
+        <h1>Bienvenido!!!</h1>
+        <button onclick="window.location.href='/register'">Registrarse</button>
+        <button onclick="window.location.href='/login'">Iniciar Sesión</button>
+        <p>Haz click <a th:href="@{/hello}">aquí</a> para acceder al recurso securizado</p>
+    </body>
+</html>
